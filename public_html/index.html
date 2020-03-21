@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Nome: Bruno de Assis Rezende
+RGM: 11191002917
+-->
+<html>
+    <head>
+        <title>Cadastramento de Peso</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+        <form class="centro">
+            <div class="titulo">
+                <label class="txttitulo">Cadastro de Peso</label>
+            </div>
+            <div class="divf">
+                <label class="texto">Nome Completo</label>
+                <input type="text" id="txtnome" name="txtnome" class="ctxt"/>     
+            </div>        
+            <div class="divf">
+                <label class="texto">CPF</label>
+                <input type="text" id="txtcpf" name="txtcpf" class="ctxt"/>
+            </div>
+            <div class="divf">
+                <label class="texto">Data de Nascimento</label>
+                <input type="text" id="txtddn" name="txtddn" class="ctxt"/>
+            </div>
+            <div class="divf">
+                <label class="texto">Sexo</label>
+                <select id="txtddn" name="txtddn" class="ctxt">
+                    <option value = "0">Selecionar</option>
+                    <option value = "1">Masculino</option>
+                    <option value = "2">Feminino</option>
+                </select>
+            </div>
+            <div class="divf">
+                <label class="texto">Telefone</label>
+                <input type="text" id="txttelefone" name="txttelefone" class="ctxt"/>
+            </div>
+            <div class="divf">
+              
+            </div>
+            <div class="divf">
+                <label class="texto">Endereço</label>
+                <input type="text" id="txtendereco" name="txtendereco" class="ctxt"/>
+            </div>
+            <div class="divf">
+                <label class="texto">Email</label>
+                <input type="text" id="txtemail" name="txtemail" class="ctxt"/>
+            </div>
+            <div class="centro">
+                <div class="pesocentro">
+                    <label class="texto">Peso Atual</label>              
+                </div>
+                <div class="pesocentro">
+                    <input type="text" id="txtpeso" name="txtpeso" class="ctxt" placeholder="em quilos"/>
+                    <label class="texto">Kg</label>   
+                </div>     
+                <div class="pesocentro">
+                    <label class="texto">Altura Atual</label>  
+                </div>
+                <div class="pesocentro">
+                    
+                    <input type="text" id="txtaltura" name="txtaltura" class="ctxt" placeholder="em metros"/>
+                    <label class="texto">metros</label>  
+                </div>
+            </div>
+            <div class="divbottom" align="right">
+                <input type="submit" id="btnenviar" name="btnenviar" value="Enviar" class="cenviar"/>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

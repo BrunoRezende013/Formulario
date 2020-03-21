@@ -1,0 +1,82 @@
+.centro {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #2dabf9;
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+}
+
+.titulo{
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.txttitulo{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.texto{
+   margin-right: 4px;
+   margin-left: 3px;
+}
+
+.divf{
+    margin-bottom: 10px;
+}
+
+.divbottom{
+    padding: 6px;
+}
+
+.ctxt {
+    padding: 5px;
+    font-size: 13px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px rgba(66,66,66,.63);
+}
+
+.cenviar {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.cenviar:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.cenviar:active {
+	position:relative;
+	top:1px;
+}
+
+.pesocentro {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 5px;
+}
